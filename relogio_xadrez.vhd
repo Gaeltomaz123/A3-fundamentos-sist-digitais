@@ -11,21 +11,41 @@ library work;
 
 entity relogio_xadrez is
     port( 
-        -- COMPLETAR DE ACORDO COM A ESPECIFICACAO
+        reset : in std_logic;
+        clock : in std_logic;
+        load : in std_logic;
+        init_time : in std_logic_vector(7 downto 0);
+        j1, j2 : in std_logic;
+        contj1, contj2 : out std_logic_vector(15 downto 0);
+        winJ1, winJ2 : out std_logic
     );
 end relogio_xadrez;
 
 architecture relogio_xadrez of relogio_xadrez is
     -- DECLARACAO DOS ESTADOS
-    type states is ( ...
+    type states is (START, IDLE, J1, J2, WIN1, WIN2);
     signal EA, PE : states;
     -- ADICIONE AQUI OS SINAIS INTERNOS NECESSARIOS
     
 begin
 
     -- INSTANCIACAO DOS CONTADORES
-    contador1 : entity work.temporizador port map ( ...
-    contador2 : entity work.temporizador port map ( ...
+    contador1 : entity work.temporizador port map (
+        clock => clock,
+        reset => reset,
+        load => load,
+        en => (EA=J1),
+        init_time => init_time,
+        cont => count1
+    );
+    contador2 : entity work.temporizador port map (
+        clock => clock,
+        reset => reset,
+        load => load,
+        en => (EA=J2),
+        init_time => init_time,
+        cont => count2
+    );
 
     -- PROCESSO DE TROCA DE ESTADOS
     process (clock, reset)

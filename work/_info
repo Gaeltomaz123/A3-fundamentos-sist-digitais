@@ -32,6 +32,7 @@ o-quiet -auto_acc_if_foreign -work work +acc=lprn
 tCvgOpt 0
 n@_opt
 OL;O;2021.3;73
+R1
 Edec_counter
 Z2 w1699463421
 Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
@@ -48,9 +49,9 @@ VXj3jag?FTn<ggMS<T@NVb0
 !s100 Z;XM:oFO=_lKU:P9`UiXP1
 Z9 OL;C;2021.3;73
 32
-Z10 !s110 1699475533
+Z10 !s110 1699476510
 !i10b 1
-Z11 !s108 1699475533.000000
+Z11 !s108 1699476509.000000
 Z12 !s90 -reportprogress|300|-work|work|dec_counter.vhd|
 Z13 !s107 dec_counter.vhd|
 !i113 0
@@ -77,56 +78,38 @@ R13
 !i113 0
 R14
 R15
-Etb
-R2
+Erelogio_xadrez
+w1699476390
+R3
+R4
 R5
 R6
-!i122 2
+!i122 3
 R1
-Z17 8tb_temp.vhd
-Z18 Ftb_temp.vhd
+8relogio_xadrez.vhd
+Frelogio_xadrez.vhd
 l0
-L8 1
-Vb2LRd]ZQUK=bOblDCj<UO3
-!s100 6B0?>PJSLBVdT9C^]@aPk3
+L12 1
+V[9:oe:@a?Q_Jmbezgz`XN1
+!s100 DEzG?K[azIl_4?Zb?hcag2
 R9
 32
-R10
+!s110 1699476521
 !i10b 1
-R11
-Z19 !s90 -reportprogress|300|-work|work|tb_temp.vhd|
-Z20 !s107 tb_temp.vhd|
-!i113 0
-R14
-R15
-Aarch
-Z21 DEx4 work 12 temporizador 0 22 5mIgAlbbI[mHGG=PzJE^Q1
-R5
-R6
-DEx4 work 2 tb 0 22 b2LRd]ZQUK=bOblDCj<UO3
-!i122 2
-l17
-L11 25
-VmRDLm;J>8WQDPc@jI=1zd0
-!s100 :njz=M62A?f^gHbQZGiRT0
-R9
-32
-R10
-!i10b 1
-R11
-R19
-R20
+!s108 1699476520.000000
+!s90 -reportprogress|300|-work|work|relogio_xadrez.vhd|
+!s107 relogio_xadrez.vhd|
 !i113 0
 R14
 R15
 Etemporizador
-Z22 w1699475530
+Z17 w1699475801
 R5
 R6
 !i122 1
 R1
-Z23 8temporizador.vhd
-Z24 Ftemporizador.vhd
+Z18 8temporizador.vhd
+Z19 Ftemporizador.vhd
 l0
 L9 1
 V5mIgAlbbI[mHGG=PzJE^Q1
@@ -135,9 +118,9 @@ R9
 32
 R10
 !i10b 1
-R11
-Z25 !s90 -reportprogress|300|-work|work|temporizador.vhd|
-Z26 !s107 temporizador.vhd|
+Z20 !s108 1699476510.000000
+Z21 !s90 -reportprogress|300|-work|work|temporizador.vhd|
+Z22 !s107 temporizador.vhd|
 !i113 0
 R14
 R15
@@ -147,7 +130,7 @@ R4
 R16
 R5
 R6
-R21
+DEx4 work 12 temporizador 0 22 5mIgAlbbI[mHGG=PzJE^Q1
 !i122 1
 l20
 L16 53
@@ -157,9 +140,9 @@ R9
 32
 R10
 !i10b 1
-R11
-R25
-R26
+R20
+R21
+R22
 !i113 0
 R14
 R15

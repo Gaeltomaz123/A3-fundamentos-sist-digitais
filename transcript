@@ -1404,3 +1404,88 @@ do sim_temp.do
 # Loading work.dec_counter(a1)#1
 # 1
 # 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:48:29 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:48:30 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:48:30 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:48:30 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:48:30 on Nov 08,2023
+# vcom -reportprogress 300 -work work relogio_xadrez.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity relogio_xadrez
+# -- Compiling architecture relogio_xadrez of relogio_xadrez
+# ** Error: relogio_xadrez.vhd(26): (vcom-1294) Declaration with designator "J1" already exists in this region.
+# ** =====> Prior declaration of "j1" is at relogio_xadrez.vhd(18).
+# ** Error: relogio_xadrez.vhd(26): (vcom-1294) Declaration with designator "J2" already exists in this region.
+# ** =====> Prior declaration of "j2" is at relogio_xadrez.vhd(18).
+# -- Loading entity temporizador
+# ** Error: relogio_xadrez.vhd(39): (vcom-1136) Unknown identifier "count1".
+# ** Error: relogio_xadrez.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "en" is not globally static.
+# ** Error: relogio_xadrez.vhd(47): (vcom-1136) Unknown identifier "count2".
+# ** Error: relogio_xadrez.vhd(45): (vcom-1436) Actual expression (infix expression) of formal "en" is not globally static.
+# ** Error: relogio_xadrez.vhd(59): near ")": (vcom-1576) expecting STRING or IDENTIFIER or ALL or <<.
+# ** Note: relogio_xadrez.vhd(66): VHDL Compiler exiting
+# End time: 17:48:30 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 7
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work relogio_xadrez.vhd"
+vcom -work work relogio_xadrez.vhd
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:48:40 on Nov 08,2023
+# vcom -reportprogress 300 -work work relogio_xadrez.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity relogio_xadrez
+# -- Compiling architecture relogio_xadrez of relogio_xadrez
+# ** Error: relogio_xadrez.vhd(26): (vcom-1294) Declaration with designator "J1" already exists in this region.
+# ** =====> Prior declaration of "j1" is at relogio_xadrez.vhd(18).
+# ** Error: relogio_xadrez.vhd(26): (vcom-1294) Declaration with designator "J2" already exists in this region.
+# ** =====> Prior declaration of "j2" is at relogio_xadrez.vhd(18).
+# -- Loading entity temporizador
+# ** Error: relogio_xadrez.vhd(39): (vcom-1136) Unknown identifier "count1".
+# ** Error: relogio_xadrez.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "en" is not globally static.
+# ** Error: relogio_xadrez.vhd(47): (vcom-1136) Unknown identifier "count2".
+# ** Error: relogio_xadrez.vhd(45): (vcom-1436) Actual expression (infix expression) of formal "en" is not globally static.
+# ** Error: relogio_xadrez.vhd(59): near ")": (vcom-1576) expecting STRING or IDENTIFIER or ALL or <<.
+# ** Note: relogio_xadrez.vhd(66): VHDL Compiler exiting
+# End time: 17:48:41 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 7, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
