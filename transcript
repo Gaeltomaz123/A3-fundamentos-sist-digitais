@@ -1,0 +1,1406 @@
+# //  ModelSim SE-64 2021.3 Jul 13 2021 Linux 5.10.0-26-amd64
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+cd
+# reading /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/../modelsim.ini
+cd Desktop
+ls
+# fund sist digitais
+# T1POO
+cd "fund sist digitais"
+ls
+# A3-fundamentos-sist-digitais
+cd A3-fundamentos-sist-digitais
+# reading modelsim.ini
+ls
+# dec_counter.vhd
+# modelsim.ini
+# relogio_xadrez.vhd
+# sim.do
+# sim_temp.do
+# tb_temp.vhd
+# tb.vhd
+# temporizador.vhd
+# transcript
+# vsim_stacktrace.vstf
+# vsim.wlf
+# wave.do
+# wave_temp.do
+# work
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:59:13 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 15:59:14 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:59:14 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(21): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(21): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(22): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(22): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(23): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(23): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(24): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(24): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(64): VHDL Compiler exiting
+# End time: 15:59:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:01:46 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:01:46 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:01:46 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(22): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(22): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(23): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(23): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(24): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(24): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(25): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(25): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(65): VHDL Compiler exiting
+# End time: 16:01:46 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:02:30 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:02:31 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:02:31 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(22): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(22): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(23): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(23): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(24): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(24): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(25): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(25): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(65): VHDL Compiler exiting
+# End time: 16:02:31 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+dataset reload -f
+# Dataset not found: 
+dataset reload -f
+# Dataset not found: 
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:02:36 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:02:37 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:02:37 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(22): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(22): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(23): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(23): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(24): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(24): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(25): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(25): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(65): VHDL Compiler exiting
+# End time: 16:02:37 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:06:30 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:06:30 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:06:30 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(21): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(21): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(22): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(22): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(23): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(23): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(24): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(24): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(64): VHDL Compiler exiting
+# End time: 16:06:30 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:14:26 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:14:26 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:14:26 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(22): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: temporizador.vhd(22): (vcom-1590) Bad expression in operand of prefix expression 'not'.
+# ** Error: temporizador.vhd(22): (vcom-1590) Bad expression in right operand of infix expression 'and'.
+# ** Error: temporizador.vhd(22): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(65): VHDL Compiler exiting
+# End time: 16:14:27 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:24:29 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:24:29 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:24:29 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(21): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(64): VHDL Compiler exiting
+# End time: 16:24:29 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:25:29 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:25:29 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:25:29 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(21): Bit string literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: temporizador.vhd(21): Bit string literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(64): VHDL Compiler exiting
+# End time: 16:25:29 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:26:26 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:26:26 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:26:26 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(21): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(21): Integer literal 1 is not of type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(64): VHDL Compiler exiting
+# End time: 16:26:26 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:29:18 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:29:18 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:29:18 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(21): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(21): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(64): VHDL Compiler exiting
+# End time: 16:29:19 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:44:01 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:44:02 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:44:02 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(21): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(21): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(64): VHDL Compiler exiting
+# End time: 16:44:03 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:45:41 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:45:41 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:45:41 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(21): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(21): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(21): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(64): VHDL Compiler exiting
+# End time: 16:45:42 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+
+
+
+
+
+
+
+
+
+
+
+
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:57:14 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:57:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:57:14 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(21): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: temporizador.vhd(21): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: temporizador.vhd(22): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: temporizador.vhd(22): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: temporizador.vhd(23): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: temporizador.vhd(23): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: temporizador.vhd(24): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: temporizador.vhd(24): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: temporizador.vhd(25): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(25): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(68): VHDL Compiler exiting
+# End time: 16:57:15 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 10, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:58:00 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:58:00 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:58:00 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(25): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(25): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(68): VHDL Compiler exiting
+# End time: 16:58:00 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:58:47 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 16:58:47 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:58:47 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 16:58:47 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:58:47 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 16:58:47 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 16:58:47 on Nov 08,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:00:47 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:00:47 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:00:47 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# ** Error: temporizador.vhd(26): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(26): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(27): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(27): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: temporizador.vhd(28): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: temporizador.vhd(28): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# ** Note: temporizador.vhd(68): VHDL Compiler exiting
+# End time: 17:00:47 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim_temp.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work temporizador.vhd"
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:11:11 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:11:12 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:11:12 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:11:12 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:11:12 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 17:11:12 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:11:12 on Nov 08,2023, Elapsed time: 0:12:25
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 17:11:12 on Nov 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:17:27 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:17:27 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:17:27 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:17:27 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:17:27 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 17:17:27 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:17:28 on Nov 08,2023, Elapsed time: 0:06:16
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 17:17:28 on Nov 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:21:18 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:21:18 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:21:18 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:21:18 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:21:18 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 17:21:18 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:21:19 on Nov 08,2023, Elapsed time: 0:03:51
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 17:21:19 on Nov 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:21:51 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:21:52 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:21:52 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:21:52 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:21:52 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 17:21:52 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:21:53 on Nov 08,2023, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 17:21:53 on Nov 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:22:54 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:22:54 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:22:54 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:22:54 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:22:54 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 17:22:54 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:22:55 on Nov 08,2023, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 17:22:55 on Nov 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:26:33 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:26:33 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:26:33 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:26:33 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:26:33 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 17:26:33 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:26:34 on Nov 08,2023, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 17:26:34 on Nov 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:27:26 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:27:27 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:27:27 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:27:27 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:27:27 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 17:27:27 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:27:28 on Nov 08,2023, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 17:27:28 on Nov 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:28:11 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:28:11 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:28:11 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:28:11 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:28:11 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 17:28:12 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:28:12 on Nov 08,2023, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 17:28:12 on Nov 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:29:14 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:29:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:29:14 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:29:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:29:14 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 17:29:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:29:15 on Nov 08,2023, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 17:29:15 on Nov 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:30:45 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:30:45 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:30:45 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:30:46 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:30:46 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 17:30:46 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:30:47 on Nov 08,2023, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 17:30:47 on Nov 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:31:30 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:31:30 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:31:30 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:31:30 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:31:30 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 17:31:30 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:31:31 on Nov 08,2023, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 17:31:31 on Nov 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
+do sim_temp.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is gabriel.tomaz@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:32:13 on Nov 08,2023
+# vcom -reportprogress 300 -work work dec_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity dec_counter
+# -- Compiling architecture a1 of dec_counter
+# End time: 17:32:13 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:32:13 on Nov 08,2023
+# vcom -reportprogress 300 -work work temporizador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temporizador
+# -- Compiling architecture a1 of temporizador
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity dec_counter
+# End time: 17:32:13 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:32:13 on Nov 08,2023
+# vcom -reportprogress 300 -work work tb_temp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture arch of tb
+# -- Loading entity temporizador
+# End time: 17:32:13 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:32:14 on Nov 08,2023, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb 
+# Start time: 17:32:14 on Nov 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.temporizador(a1)#1
+# Loading work.dec_counter(a1)#1
+# 1
+# 1
