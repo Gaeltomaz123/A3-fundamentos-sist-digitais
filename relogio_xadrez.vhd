@@ -2,6 +2,7 @@
 -- RELOGIO DE XADREZ
 -- Author - Fernando Moraes - 25/out/2023
 -- Revision - Iaçanã Ianiski Weber - 30/out/2023
+-- Gabriel de Cezaro Tomaz 08/nov/2023
 --------------------------------------------------------------------------------
 library IEEE;
 library ieee;
@@ -22,53 +23,97 @@ entity relogio_xadrez is
 end relogio_xadrez;
 
 architecture relogio_xadrez of relogio_xadrez is
-    -- DECLARACAO DOS ESTADOS
-    type states is (START, IDLE, J1, J2, WIN1, WIN2);
+
+    type states is (START, IDLE, P1, P2, WIN1, WIN2);
     signal EA, PE : states;
-    -- ADICIONE AQUI OS SINAIS INTERNOS NECESSARIOS
-    
+
+    signal enj1, enj2: std_logic;
+    signal cont1, cont2: std_logic_vector(15 downto 0);
 begin
 
-    -- INSTANCIACAO DOS CONTADORES
+
     contador1 : entity work.temporizador port map (
         clock => clock,
         reset => reset,
         load => load,
-        en => (EA=J1),
+        en => enj1,
         init_time => init_time,
-        cont => count1
+        cont => cont1
     );
     contador2 : entity work.temporizador port map (
         clock => clock,
         reset => reset,
         load => load,
-        en => (EA=J2),
+        en => enj2,
         init_time => init_time,
-        cont => count2
+        cont => cont2
     );
 
-    -- PROCESSO DE TROCA DE ESTADOS
+ 
     process (clock, reset)
     begin
-        
-        -- COMPLETAR COM O PROCESSO DE TROCA DE ESTADO
 
+        if reset = '1' then
+            EA <= START;
+        elsif rising_edge(clock) then
+            EA <= PE;
+        end if;
     end process;
 
-    -- PROCESSO PARA DEFINIR O PROXIMO ESTADO
-    process ( ) --<<< Nao esqueca de adicionar os sinais da lista de sensitividade
+
+    process (load, cont1, cont2, j1, j2, EA)
     begin
         case EA is
-            
-            --COMPLETAR O CASE PARA CADA UM DOS ESTADOS DA SUA MAQUINA
 
+            when START =>
+                if load = '1' then
+                    PE <= IDLE;
+                else 
+                    PE <= START;
+                end if;
+
+                when IDLE =>
+                if j1 = '1' then
+                    PE <= P1;
+                elsif j2 = '1' then
+                    PE <= P2;
+                else
+                    PE <= IDLE;
+                end if;
+
+                when P1 =>
+                if j1 = '1' then
+                    PE <= P2;
+                elsif cont1 = x"0" then
+                    PE <= WIN2;
+                elsif j1 = '0' then    
+                    PE <= P1;
+                end if;
+
+                when P2 =>
+                if j2 = '1' then
+                    PE <= P1;
+                elsif cont2 = x"0" then
+                    PE <= WIN1; 
+                elsif j2 = '0' then 
+                    PE <= P2;
+                end if;
+
+                when WIN1 =>
+                    PE <= START;
+                when WIN2 =>
+                    PE <= START;
         end case;
     end process;
 
     
-    -- ATRIBUICAO COMBINACIONAL DOS SINAIS INTERNOS E SAIDAS - Dica: faca uma maquina de Moore, desta forma os sinais dependem apenas do estado atual!!
-    
 
+    enj1 <= '1' when EA = P1 else '0';
+    enj2 <= '1' when EA = P2 else '0';
+    winJ1 <= '1' when PE = WIN1 else '0';
+    winJ2 <= '1' when PE = WIN2 else '0';
+    contj1 <= cont1;
+    contj2 <= cont2;
 end relogio_xadrez;
 
 
