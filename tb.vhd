@@ -1,6 +1,7 @@
 --------------------------------------------------------------------------------
 -- TB do cronometro de xadrez
 -- Fernando Moraes - 25/out/2023
+-- Gabriel de Cezaro Tomaz - 09/nov/2023
 --------------------------------------------------------------------------------
 library IEEE;
 use IEEE.std_logic_1164.all;
