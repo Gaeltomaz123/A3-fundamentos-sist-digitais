@@ -26,9 +26,9 @@ architecture relogio_xadrez of relogio_xadrez is
 
     type states is (START, IDLE, P1, P2, WIN1, WIN2);
     signal EA, PE : states;
-
-    signal enj1, enj2: std_logic;
     signal cont1, cont2: std_logic_vector(15 downto 0);
+    signal enj1, enj2: std_logic;
+
 begin
 
 
